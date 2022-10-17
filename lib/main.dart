@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Ordenação de Números',
+
       theme: new ThemeData(
         brightness: Brightness.dark,
         primarySwatch: Colors.blue,
@@ -181,7 +181,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ]),
     );
   }
-
+      pNum.text = "Digite a Seganda";
   void ordenar() {
     int pN, sN, tN;
     pN = int.parse(pNumero.text);
